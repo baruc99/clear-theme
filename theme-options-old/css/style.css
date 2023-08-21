@@ -1,0 +1,301 @@
+/*!
+ * style.css
+ * - Estilos customizados
+ */
+
+@font-face {
+    font-family: 'panton_lightregular';
+    src: url('../fonts/panton-light.eot');
+    src: url('../fonts/panton-light.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/panton-light.woff2') format('woff2'),
+         url('../fonts/panton-light.woff') format('woff'),
+         url('../fonts/panton-light.ttf') format('truetype'),
+         url('../fonts/panton-light.svg#panton_lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'pantonregular';
+    src: url('../fonts/panton-regular.eot');
+    src: url('../fonts/panton-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/panton-regular.woff2') format('woff2'),
+         url('../fonts/panton-regular.woff') format('woff'),
+         url('../fonts/panton-regular.ttf') format('truetype'),
+         url('../fonts/panton-regular.svg#pantonregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'panton_semiboldregular';
+    src: url('../fonts/panton-semibold.eot');
+    src: url('../fonts/panton-semibold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/panton-semibold.woff2') format('woff2'),
+         url('../fonts/panton-semibold.woff') format('woff'),
+         url('../fonts/panton-semibold.ttf') format('truetype'),
+         url('../fonts/panton-semibold.svg#panton_semiboldregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'panton_blackregular';
+    src: url('../fonts/panton-black.eot');
+    src: url('../fonts/panton-black.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/panton-black.woff2') format('woff2'),
+         url('../fonts/panton-black.woff') format('woff'),
+         url('../fonts/panton-black.ttf') format('truetype'),
+         url('../fonts/panton-black.svg#panton_blackregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'pantonbold';
+    src: url('../fonts/panton-bold.eot');
+    src: url('../fonts/panton-bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/panton-bold.woff2') format('woff2'),
+         url('../fonts/panton-bold.woff') format('woff'),
+         url('../fonts/panton-bold.ttf') format('truetype'),
+         url('../fonts/panton-bold.svg#pantonbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.wrap{
+	border: 1px solid #AA983F;
+}
+.wrap-title{
+	background-color: #002475;
+	padding: 20px;
+}
+.wrap-title h2{
+	margin: 0px;
+	line-height: 31px;
+	font-family: 'panton_blackregular';
+	color: #fff;
+	font-size: 24px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-stroke: 0.45px;
+    -webkit-text-stroke: 0.45px rgba(0, 0, 0, 0.1);
+}
+.wrap-title h2 span{
+	font-family: 'pantonregular';
+	font-size: 15px;
+}
+.wrap-title span{
+	display: block;
+}
+.wrap-title .btn-custom{
+    font-size: 14px;
+    font-family: 'pantonbold';
+    border: none;
+    border-radius: 5px;
+    margin-top: 11px;
+    background-color: #000;
+    padding: 10px 15px;
+    color: #fff;
+}
+.wrap-title .btn-custom:hover{
+    background-color: #38538e;
+}
+.bg-gray-1{
+	background-color: #EFEFEF;
+}
+.bg-gray-2{
+	background-color: #fff;
+}
+
+.content-tab-link .nav-tabs{
+
+}
+.content-tab-link .nav-tabs li{
+	width: 100%;
+	margin-bottom: 0;
+}
+.content-tab-link .nav-tabs li a{
+	color: #404040;
+    font-family: 'pantonbold';
+    display: block;
+    padding: 20px;
+    background-color: #cecece;
+    border-bottom: 1px solid #a9a9a9;
+    border-right: 0;
+    border-left: 0;
+    border-top: 0;
+    border-radius: 0;
+}
+.content-tab-link .nav-tabs li a:hover{
+	text-decoration: none;
+	background-color: #49453c;
+	color: #fff;
+}
+.content-tab-link .nav-tabs li a.active{
+	background-color: #3863c4;
+	color: #fff;
+}
+form.theme_options .tab-content{
+	padding: 20px;
+}
+form.theme_options .form-group label{
+	font-family: 'pantonbold';
+	display: block;
+}
+form.theme_options .form-group input,
+form.theme_options .form-group select,
+form.theme_options .form-group textarea{
+    border-radius: 0;
+    border-color: #a20011;
+    font-family: 'pantonregular';
+    color: #000;
+    font-size: 14px;
+    line-height: 22px;
+}
+form.theme_options .form-group span{
+	font-family: 'panton_lightregular';
+	font-size: 13px;
+    line-height: 16px;
+    display: block;
+    margin-top: 6px;
+}
+.brd-section{
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 8px !important; 
+}
+.widget-media img{
+    width: 100%;
+}
+.widget-media a, .widget-media p{
+    color: #aa983f;
+    font-family: 'pantonregular';
+    display: block;
+    margin: 0 0 10px;
+}
+.icon-favicon img{
+    width: 64px !Important;
+}
+.bg-logo-nocturno{
+    background-color: #000;
+    padding: 10px;
+}
+
+.title-section h3{
+    font-size: 23px;
+    color: #49453c;
+    font-family: 'pantonbold';
+    background-color: #efefef;
+    padding: 15px 20px;
+}
+form.theme_options .form-group{
+    padding: 10px 20px 0;
+}
+
+.dropdown-menu{
+    width: 100%;
+    padding: 0 !Important;
+    margin:0 !Important;
+    position: initial !Important;
+    transform: inherit !Important;
+}
+.open-submenu li a{
+    background-color: #efefef !Important;
+}
+
+
+/* Add More Module
+============================================= */
+
+.img-full{
+    margin: 0 auto;
+    width: 70%;
+}
+.delete-item{
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.item-module{
+    padding: 17px 15px 0px 15px;
+    position: relative;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+.item-module .form-control{
+    height: 35px;
+    font-family: 'pantonregular';
+    font-size: 12px;
+}
+.item-module .form-group label{
+    font-family: 'pantonbold';
+    font-size: 12px;
+    display: block;
+}
+.form-btn-upload{
+    font-size: 12px;
+    font-family: 'pantonbold';
+    border: none;
+    border-radius: 5px;
+    background-color: #49453C;
+    padding: 8px 15px;
+    color: #fff;
+    display: block;
+    width: 100%;
+    border-radius: 0;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #b3b3b3 !important;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #b3b3b3 !important;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #b3b3b3 !important;
+}
+
+
+/* Home - Tabs
+============================================= */
+.tab-content .tab-content{
+    padding: 0 !Important;
+    margin-bottom: 60px;
+}
+.content-tab-home .nav-pills{
+    border-bottom: 1px solid #ccc;
+}
+.content-tab-home .nav-pills .nav-link{
+    background-color: transparent !Important;
+    color: #063191;
+    padding: 15px 26px;
+}
+.content-tab-home .nav-pills .nav-item{
+    margin-bottom: 0;
+}
+.content-tab-home .nav-pills .nav-link:hover{
+    color: #a3a3a3;
+}
+.content-tab-home .nav-pills .nav-link:focus{
+    box-shadow: none;
+    outline: none;
+}
+.content-tab-home .nav-pills .nav-link.active{
+    color: #4a453c;
+    font-family: 'pantonbold';
+}
+/*slider home*/
+select.form-control{
+    max-width: 100% !Important;
+}
+
+
+
