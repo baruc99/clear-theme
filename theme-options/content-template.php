@@ -17,11 +17,11 @@
                         <i class="fas fa-home"></i>  Home <i class="fas fa-angle-right"></i>
                     </a>
                 </li>
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                     <a class="nav-link" id="banner-sidebar-tab" data-toggle="tab" href="#banner-sidebar" role="tab" aria-controls="banner-sidebar" aria-selected="false">
                         <i class="fas fa-edit"></i> Opciones del sidebar
                     </a>
-                </li>
+                </li> -->
             </ul>
         </div>
     </div>

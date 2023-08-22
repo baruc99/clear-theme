@@ -5,7 +5,7 @@
 	<h3><i class="fas fa-user-cog"></i>  Configuración General</h3>
 </div>
 
-<?php if( $isSuperAdmin == true ){ ?>
+<?php //if( $isSuperAdmin == true ){ ?>
 <!-- soy superadmin -->
 <div class="form-group">
     <div class="row">
@@ -22,7 +22,7 @@
     </div>
 </div>
 
-<?php }?>
+<?php// }?>
 <div class="title-section">
     <h3>Correo Electrónico</h3>
 </div>
@@ -36,28 +36,6 @@
         </div>
         <div class="col-lg-8">
             <input class="form-control" id="e-mail" name="e-mail" value="<?php echo $configuration_theme["e-mail"]; ?>">
-        </div>
-    </div>
-    <div class="row mb-3">
-        <div class="col-lg-4 label-option">
-            <span class="description-title">
-                Escribe el e-mail que manda
-                información sobre el formulario
-            </span>
-        </div>
-        <div class="col-lg-8">
-            <input class="form-control" id="e-mail-formulario" name="e-mail-formulario" value="<?php echo $configuration_theme["e-mail-formulario"]; ?>">
-        </div>
-    </div>
-    <div class="row mb-3">
-        <div class="col-lg-4 label-option">
-            <span class="description-title">
-                Escribe el e-mail que manda
-                información sobre nuestros Congresos y Convenciones
-            </span>
-        </div>
-        <div class="col-lg-8">
-            <input class="form-control" id="e-mail-congresos" name="e-mail-congresos" value="<?php echo $configuration_theme["e-mail-congresos"]; ?>">
         </div>
     </div>
 </div>
@@ -75,7 +53,7 @@
             </span>
         </div>
         <div class="col-lg-8">
-            <input class="form-control" id="phone" name="phone" value="<?php echo $configuration_theme["phone"]; ?>">
+            <input class="form-control" id="phone" name="phone" value="<?php echo $configuration_theme["phone"];?>" placeholder="xxx xxx xxxx">
         </div>
     </div>
 </div>

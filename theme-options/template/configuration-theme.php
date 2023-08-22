@@ -1,15 +1,15 @@
 <div class="content-tab-home">
     <ul class="nav nav-pills" id="nav-configuration-tabs" role="tablist">
-        <!-- <li class="nav-item">
+        <li class="nav-item">
             <a class="nav-link" id="configuration-seo-tab" data-toggle="pill" href="#configuration-seo" role="tab" aria-controls="configuration-seo" aria-selected="true">
                 <i class="fas fa-globe"></i> Configuración SEO
             </a>
-        </li> -->
-        <!-- <li class="nav-item">
+        </li>
+        <li class="nav-item">
             <a class="nav-link" id="configuration-footer-tab" data-toggle="pill" href="#configuration-footer" role="tab" aria-controls="configuration-slider" aria-selected="true">
                 <span class="dashicons dashicons-align-full-width"></span> Configuración Footer
             </a>
-        </li> -->
+        </li>
         <li class="nav-item">
             <a class="nav-link active" id="configuration-general-tab" data-toggle="pill" href="#configuration-general" role="tab" aria-controls="configuration-general" aria-selected="false">
                 <i class="fas fa-user-cog"></i> Configuración General

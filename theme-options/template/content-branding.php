@@ -121,7 +121,7 @@
 
 <!-- Branding - Colores
 ============================================= -->
-<!-- <div class="form-group brd-section">
+<div class="form-group brd-section">
     <div class="row">
         <div class="col-lg-4 label-option">
             <label for="paleta-colores" class="control-label">
@@ -203,11 +203,11 @@
         </div>
         <div class="offset-md-4"></div>
     </div>
-</div> -->
+</div>
 
 <!-- Branding - sección servicios
 ============================================= -->
-<!-- <div class="title-section">
+<div class="title-section">
     <h3>Branding Servicios</h3>
 </div>
 
@@ -240,7 +240,7 @@
         </div>
         <div class="offset-md-4"></div>
     </div>
-</div> -->
+</div>
 
 
 <!-- Redes sociales
@@ -278,7 +278,7 @@
         </div>
     </div>
 </div>
-<!-- <div class="form-group">
+<div class="form-group">
     <div class="row">
         <div class="col-lg-3 label-option">
             <label for="youtube-url" class="control-label">Youtube Url</label>
@@ -291,7 +291,7 @@
             <input class="form-control" id="youtube-url" name="youtube-url" value="<?php// echo $branding["youtube-url"]; ?>">
         </div>
     </div>
-</div> -->
+</div>
 <div class="form-group">
     <div class="row">
         <div class="col-lg-3 label-option">
