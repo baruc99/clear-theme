@@ -92,7 +92,10 @@ function themeoption_save(){
 		"e-mail"     		 	 => $_POST["e-mail"],
 		"e-mail-formulario"	 	 => $_POST["e-mail-formulario"],
 		"e-mail-congresos"	 	 => $_POST["e-mail-congresos"],
-		'phone'					 => $_POST["phone"]
+		'phone'					 => $_POST["phone"],
+		'whatsapp'				 => $_POST["whatsapp"],
+		'msg-whatsapp'			 => $_POST["msg-whatsapp"],
+		'telegram'			 => $_POST["telegram"],
 	);
 
 	/* Branding y social media

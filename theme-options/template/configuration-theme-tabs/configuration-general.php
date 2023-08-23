@@ -53,7 +53,58 @@
             </span>
         </div>
         <div class="col-lg-8">
-            <input class="form-control" id="phone" name="phone" value="<?php echo $configuration_theme["phone"];?>" placeholder="xxx xxx xxxx">
+            <input class="form-control" id="phone" name="phone" value="<?php echo $configuration_theme["phone"];?>">
+        </div>
+    </div>
+   
+</div>
+
+<div class="title-section">
+    <h3>WhatsApp</h3>
+</div>
+<div class="form-group">
+    <div class="row">
+        <div class="col-lg-4 label-option">
+            <label for="whatsapp" class="control-label">WhatsApp</label>
+            <span class="description-title">
+                Escribe el telefono en donde se reciben
+                whatsapp de contacto.
+            </span>
+        </div>
+        <div class="col-lg-8">
+            <input class="form-control" id="whatsapp" name="whatsapp" value="<?php echo $configuration_theme["whatsapp"];?>">
+        </div>
+    </div>
+
+    <div class="row mt-3">
+        <div class="col-lg-4 label-option">
+            <label for="msg-whatsapp" class="control-label">Mensaje</label>
+            <span class="description-title">
+                Escribe el mensaje que para recibir 
+                en whatsapp.
+                ejemplo: ¡Hola!, Quisiera hacer un pedido
+            </span>
+        </div>
+        <div class="col-lg-8">
+            <input class="form-control" id="msg-whatsapp" name="msg-whatsapp" value="<?php echo $configuration_theme["msg-whatsapp"];?>">
+        </div>
+    </div>
+</div>
+<div class="title-section">
+    <h3>Telegram</h3>
+</div>
+<div class="form-group">
+    <div class="row">
+        <div class="col-lg-4 label-option">
+            <label for="telegram" class="control-label">Telegram</label>
+            <span class="description-title">
+                Escribe el usuario de 
+                telegram.
+                ejemplo: user01
+            </span>
+        </div>
+        <div class="col-lg-8">
+            <input class="form-control" id="telegram" name="telegram" value="<?php echo $configuration_theme["telegram"];?>">
         </div>
     </div>
 </div>
