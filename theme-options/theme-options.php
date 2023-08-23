@@ -132,7 +132,10 @@ function themeoption_save(){
 		"facebook-url"	=> $_POST["facebook-url"],
 		"twitter-url"   => $_POST["twitter-url"],
 		"youtube-url"   => $_POST["youtube-url"],
-		"instagram-url" => $_POST["instagram-url"]
+		"instagram-url" => $_POST["instagram-url"],
+		"tiktok-url" 	=> $_POST["tiktok-url"],
+		"twitch-url" 	=> $_POST["twitch-url"],
+		"discord-url" 	=> $_POST["discord-url"],
 	);
 	
 	/* Home - Menu

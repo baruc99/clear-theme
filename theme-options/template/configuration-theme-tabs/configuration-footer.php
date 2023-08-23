@@ -42,9 +42,9 @@
 <div class="form-group">
     <div class="row">
         <div class="col-lg-4 label-option">
-            <label for="footter-description" class="control-label">Datos de contacto y dirección de la dependencia.</label>
+            <label for="footter-description" class="control-label">Datos de contacto y dirección.</label>
             <span class="description-title">
-                Escribe los datos de contacto y dirección de la dependencia.
+                Escribe los datos de contacto y dirección
             </span>
         </div>
         <div class="col-lg-8">
@@ -55,7 +55,7 @@
 <div class="form-group">
     <div class="row">
         <div class="col-lg-4 label-option">
-            <label for="text-header-title" class="control-label">Texto para latitud y longitud de donde se ubica la secretaría</label>
+            <label for="text-header-title" class="control-label">Texto para latitud y longitud de donde se ubica</label>
             <span class="description-title">
                 19.5632994,-96.9321236
             </span>

@@ -288,7 +288,7 @@
             </span>
         </div>
         <div class="col-lg-9">
-            <input class="form-control" id="youtube-url" name="youtube-url" value="<?php// echo $branding["youtube-url"]; ?>">
+            <input class="form-control" id="youtube-url" name="youtube-url" value="<?php echo $branding["youtube-url"]; ?>">
         </div>
     </div>
 </div>
@@ -302,6 +302,45 @@
         </div>
         <div class="col-lg-9">
             <input class="form-control" id="instagram-url" name="instagram-url" value="<?php echo $branding["instagram-url"]; ?>">
+        </div>
+    </div>
+</div>
+<div class="form-group">
+    <div class="row">
+        <div class="col-lg-3 label-option">
+            <label for="tiktok-url" class="control-label">Tik tok Url</label>
+            <span class="description-title">
+                Escribe la url de tu cuenta de Tik tok
+            </span>
+        </div>
+        <div class="col-lg-9">
+            <input class="form-control" id="tiktok-url" name="tiktok-url" value="<?php echo $branding["tiktok-url"]; ?>">
+        </div>
+    </div>
+</div>
+<div class="form-group">
+    <div class="row">
+        <div class="col-lg-3 label-option">
+            <label for="twitch-url" class="control-label">Twitch Url</label>
+            <span class="description-title">
+                Escribe la url de tu cuenta de Twitch
+            </span>
+        </div>
+        <div class="col-lg-9">
+            <input class="form-control" id="twitch-url" name="twitch-url" value="<?php echo $branding["twitch-url"]; ?>">
+        </div>
+    </div>
+</div>
+<div class="form-group">
+    <div class="row">
+        <div class="col-lg-3 label-option">
+            <label for="discord-url" class="control-label">Discord Url</label>
+            <span class="description-title">
+                Escribe la url de tu cuenta de Discord
+            </span>
+        </div>
+        <div class="col-lg-9">
+            <input class="form-control" id="discord-url" name="discord-url" value="<?php echo $branding["discord-url"]; ?>">
         </div>
     </div>
 </div>
